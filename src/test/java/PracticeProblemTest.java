@@ -171,6 +171,7 @@ public class PracticeProblemTest {
       catch (NoSuchMethodException e) {
          fail("Method does not exist");
       } catch (Exception e) {
+         System.out.println(e);
          fail("Something weird happened");
       }
    }
